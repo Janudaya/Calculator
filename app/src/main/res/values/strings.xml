@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!-- Keypad labels -->
+    <string name="btn_0">0</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+    <string name="btn_dot">.</string>
+
+    <string name="btn_add">+</string>
+    <string name="btn_subtract">−</string>
+    <string name="btn_multiply">×</string>
+    <string name="btn_divide">÷</string>
+    <string name="btn_equals">=</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_backspace">⌫</string>
+    <string name="btn_percent">%</string>
+    <string name="btn_plus_minus">±</string>
+
+    <!-- Display defaults and errors -->
+    <string name="default_result">0</string>
+    <string name="error_message">Error</string>
+    <string name="error_divide_by_zero">Error</string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="cd_expression">Current mathematical expression</string>
+    <string name="cd_result">Calculation result</string>
+    <string name="cd_btn_0">0</string>
+    <string name="cd_btn_1">1</string>
+    <string name="cd_btn_2">2</string>
+    <string name="cd_btn_3">3</string>
+    <string name="cd_btn_4">4</string>
+    <string name="cd_btn_5">5</string>
+    <string name="cd_btn_6">6</string>
+    <string name="cd_btn_7">7</string>
+    <string name="cd_btn_8">8</string>
+    <string name="cd_btn_9">9</string>
+    <string name="cd_btn_dot">Decimal point</string>
+    <string name="cd_btn_add">Add</string>
+    <string name="cd_btn_subtract">Subtract</string>
+    <string name="cd_btn_multiply">Multiply</string>
+    <string name="cd_btn_divide">Divide</string>
+    <string name="cd_btn_equals">Equals</string>
+    <string name="cd_btn_clear">Clear</string>
+    <string name="cd_btn_backspace">Backspace</string>
+    <string name="cd_btn_percent">Percentage</string>
+    <string name="cd_btn_plus_minus">Plus or minus toggle</string>
+</resources>

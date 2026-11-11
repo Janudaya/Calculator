@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="display_padding_horizontal">24dp</dimen>
+    <dimen name="display_padding_vertical">16dp</dimen>
+    <dimen name="keypad_padding">12dp</dimen>
+    <dimen name="button_margin">6dp</dimen>
+    <dimen name="button_corner_radius">18dp</dimen>
+    <dimen name="text_size_expression">24sp</dimen>
+    <dimen name="text_size_result">48sp</dimen>
+</resources>

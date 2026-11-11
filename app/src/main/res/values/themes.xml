@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CalculatorApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/bg_calculator</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <!-- Background -->
+        <item name="android:windowBackground">@color/bg_calculator</item>
+    </style>
+
+    <!-- Base Calculator Button Style -->
+    <style name="Widget.Calculator.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="elevation">2dp</item>
+    </style>
+
+    <!-- Number Button Style -->
+    <style name="Widget.Calculator.Button.Number">
+        <item name="backgroundTint">@color/btn_number_bg</item>
+        <item name="android:textColor">@color/btn_number_text</item>
+        <item name="rippleColor">#3A404D</item>
+    </style>
+
+    <!-- Operator Button Style (+, −, ×, ÷) -->
+    <style name="Widget.Calculator.Button.Operator">
+        <item name="backgroundTint">@color/btn_operator_bg</item>
+        <item name="android:textColor">@color/btn_operator_text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="rippleColor">@color/btn_operator_ripple</item>
+    </style>
+
+    <!-- Function Button Style (C, ⌫, %, ±) -->
+    <style name="Widget.Calculator.Button.Function">
+        <item name="backgroundTint">@color/btn_function_bg</item>
+        <item name="android:textColor">@color/btn_function_text</item>
+        <item name="rippleColor">#4E5666</item>
+    </style>
+
+    <!-- Clear Button Style (C) with distinct accent text -->
+    <style name="Widget.Calculator.Button.Clear">
+        <item name="backgroundTint">@color/btn_function_bg</item>
+        <item name="android:textColor">@color/btn_clear_text</item>
+        <item name="rippleColor">#4E5666</item>
+    </style>
+
+    <!-- Equals Button Style (=) -->
+    <style name="Widget.Calculator.Button.Equals">
+        <item name="backgroundTint">@color/btn_equals_bg</item>
+        <item name="android:textColor">@color/btn_equals_text</item>
+        <item name="android:textSize">26sp</item>
+        <item name="rippleColor">@color/btn_operator_ripple</item>
+    </style>
+</resources>

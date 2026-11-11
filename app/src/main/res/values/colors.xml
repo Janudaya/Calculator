@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="primary">#1E222B</color>
+    <color name="primary_dark">#121418</color>
+    <color name="accent">#FF9800</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_calculator">#121418</color>
+    <color name="bg_display">#181B20</color>
+    <color name="divider_color">#262B34</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8E94A0</color>
+    <color name="text_accent">#FF9800</color>
+    <color name="text_error">#EF4444</color>
+
+    <!-- Keypad button colors -->
+    <color name="btn_number_bg">#232730</color>
+    <color name="btn_number_text">#F8FAFC</color>
+
+    <color name="btn_operator_bg">#FF9800</color>
+    <color name="btn_operator_text">#FFFFFF</color>
+    <color name="btn_operator_ripple">#FFA726</color>
+
+    <color name="btn_function_bg">#333945</color>
+    <color name="btn_function_text">#E2E8F0</color>
+    <color name="btn_clear_text">#F87171</color>
+
+    <color name="btn_equals_bg">#FF9800</color>
+    <color name="btn_equals_text">#FFFFFF</color>
+
+    <!-- Standard utility colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
